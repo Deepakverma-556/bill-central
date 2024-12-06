@@ -1,6 +1,6 @@
 export const Arrow = ({stroke}) => (
     <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 14L14 1M14 1V13.48M14 1H1.52" stroke={stroke} stroke-width="1.93338" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M1 14L14 1M14 1V13.48M14 1H1.52" stroke={stroke} strokeWidth="1.93338" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 )
 
@@ -88,7 +88,7 @@ export const Support = () => (
 )
 export const RightArrow = () => (
     <svg width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M13 5L1 5M13 5L8.63636 1M13 5L8.63636 9" stroke="#010101" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M13 5L1 5M13 5L8.63636 1M13 5L8.63636 9" stroke="#010101" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 
 )

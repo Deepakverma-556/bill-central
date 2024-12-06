@@ -9,6 +9,7 @@ module.exports = {
         'blueLine':"url('./assets/images/webp/hero-blue-bg.webp')"
       },
       screens: {
+        xlg:'1050px',
         lg: '1025px',
         md:'770px',
       },

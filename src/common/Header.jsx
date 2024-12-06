@@ -33,7 +33,7 @@ const Header = () => {
               <li key={i}><a href={obj.Link} className='text-white text-base font-helvetica relative flex after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-1 after:h-[0.2px] after:bg-white pb-0.5'>{obj.Title}</a></li>
             ))}
           </ul>
-          <button className='max-lg:hidden'><Button text='Get Started' bg='bg-white' /></button>
+          <div className='max-lg:hidden'><Button text='Get Started' bg='bg-white' /></div>
           <div
             className={`lg:hidden z-30 text-3xl max-sm:text-2xl font-bold text-white  cursor-pointer`}
             onClick={() => setOpen(!open)}
@@ -46,7 +46,7 @@ const Header = () => {
               {HEADERLINK.map((obj, i) => (
                 <li key={i}><a href={obj.Link} className='text-white text-base'>{obj.Title}</a></li>
               ))}
-              <button><Button text='Get Started' bg='bg-white' /></button>
+              <div><Button text='Get Started' bg='bg-white' /></div>
             </ul>
 
           </div>
