@@ -1,5 +1,5 @@
 export const Arrow = ({stroke}) => (
-    <svg width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+    <svg className="max-md:h-3" width="15" height="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
         <path d="M1 14L14 1M14 1V13.48M14 1H1.52" stroke={stroke} strokeWidth="1.93338" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 )
