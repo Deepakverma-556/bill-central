@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react'
 import { HEADERLINK } from '../utils/Helper';
-import Button from './Button';
+import CustomButton from './CustomButton';
 import logo from '../assets/images/webp/logo.webp'
 const Header = () => {
   const [open, setOpen] = useState()
 
   useEffect(() => {
     const handleOverflow = () => {
-      if (open && window.innerWidth < 1024) {
+      if (open && window.innerWidth < 1025) {
         document.body.classList.add("overflow-hidden");
       } else {
         document.body.classList.remove("overflow-hidden");
@@ -33,7 +33,7 @@ const Header = () => {
               <li key={i}><a href={obj.Link} className='text-white text-base font-helvetica relative flex after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-1 after:h-[0.2px] after:bg-white pb-0.5'>{obj.Title}</a></li>
             ))}
           </ul>
-          <div className='max-lg:hidden'><Button text='Get Started' bg='bg-white' /></div>
+          <div className='max-lg:hidden'><CustomButton text='Get Started' bg='bg-white' /></div>
           <div
             className={`lg:hidden z-30 text-3xl max-sm:text-2xl font-bold text-white  cursor-pointer`}
             onClick={() => setOpen(!open)}
@@ -46,7 +46,7 @@ const Header = () => {
               {HEADERLINK.map((obj, i) => (
                 <li key={i}><a href={obj.Link} className='text-white text-base'>{obj.Title}</a></li>
               ))}
-              <div><Button text='Get Started' bg='bg-white' /></div>
+              <div><CustomButton text='Get Started' bg='bg-white' /></div>
             </ul>
 
           </div>
