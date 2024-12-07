@@ -19,7 +19,7 @@ const HeroSection = () => {
               <h3 className='font-normal text-[38px] max-md:text-3xl max-sm:text-2xl leading-[41px] text-darkBlue lg:max-w-[548px] lg:absolute lg:-bottom-[270px] xlg:-bottom-[336px] max-lg:py-5 max-sm:pt-3 max-lg:text-white'>More Than <span className='text-skyBlue'>80,000</span>+ Companies Trust Bill Central</h3>
             </div>
           </div>
-          <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-5'>
+          <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-5 max-sm:pt-2'>
               <img src="/assets/images/webp/hero.webp" alt="hero" className='h-[760px] lg:absolute right-0 max-lg:h-[500px] max-md:h-96 max-sm:h-72 max-lg:mx-auto lg:w-[470px] xl:w-[558px] ' />
           </div>
         </div>
