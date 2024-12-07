@@ -1,4 +1,4 @@
-export const HEADERLINK = [
+export const HEADER_LINK = [
     {
         Title:'About',
         Link:'#about',

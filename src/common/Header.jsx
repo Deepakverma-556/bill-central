@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { HEADERLINK } from '../utils/Helper';
+import {HEADER_LINK} from '../utils/Helper'
 import CustomButton from './CustomButton';
 import logo from '../assets/images/webp/logo.webp'
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
             <img src={logo} alt="logo" className='h-10 max-md:h-9 max-sm:h-8' />
           </a>
           <ul className='flex items-center gap-6 max-lg:hidden'>
-            {HEADERLINK.map((obj, i) => (
+            {HEADER_LINK.map((obj, i) => (
               <li key={i}><a href={obj.Link} className='text-white text-base font-helvetica relative flex after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-1 after:h-[0.2px] after:bg-white pb-0.5'>{obj.Title}</a></li>
             ))}
           </ul>
@@ -43,10 +43,10 @@ const Header = () => {
           <div className={`w-full h-full transition-all duration-500 left-0 lg:-top-full z-20 fixed flex flex-col bg-black justify-center items-center ${open ? "top-0 left-0" : "-top-full"
             }`}>
             <ul className='flex items-center flex-col gap-6'>
-              {HEADERLINK.map((obj, i) => (
+              {HEADER_LINK.map((obj, i) => (
                 <li key={i}><a href={obj.Link} className='text-white text-base'>{obj.Title}</a></li>
               ))}
-              <div><CustomButton text='Get Started' bg='bg-white' /></div>
+              <CustomButton text='Get Started' bg='bg-white' />
             </ul>
 
           </div>

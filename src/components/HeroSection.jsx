@@ -4,11 +4,10 @@ import Description from '../common/Description'
 import hero from '../assets/images/webp/hero.webp'
 import CustomInput from '../common/CustomInput'
 
-
 const HeroSection = () => {
   return (
     <div className='bg-blueLine bg-cover bg-no-repeat flex flex-col pb-[202px] max-lg:pb-24 max-sm:pb-[60px] max-md:pb-20 lg:h-[810px]'>
-      <div><Header /></div>
+      <Header />
       <div className='max-w-[1172px] mx-auto px-4 relative'>
         <div className='flex flex-wrap -mx-3 pt-[109px] max-lg:pt-24 max-md:pt-20 max-sm:pt-12'>
           <div className='w-1/2 px-3 max-lg:w-full'>
@@ -22,9 +21,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-5'>
-            <div>
               <img src={hero} alt="hero" className='h-[760px] lg:absolute right-0 max-lg:h-[500px] max-md:h-96 max-sm:h-72 max-lg:mx-auto lg:w-[470px] xl:w-[558px] ' />
-            </div>
           </div>
         </div>
       </div>
