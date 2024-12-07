@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'blueLine':"url('./assets/images/webp/hero-blue-bg.webp')"
+        'blueLine':"url('/public/assets/images/webp/hero-blue-bg.webp')"
       },
       screens: {
         xlg:'1050px',

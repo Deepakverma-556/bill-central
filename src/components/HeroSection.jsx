@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from '../common/Header'
 import Description from '../common/Description'
-import hero from '../assets/images/webp/hero.webp'
 import CustomInput from '../common/CustomInput'
 
 const HeroSection = () => {
@@ -21,7 +20,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-5'>
-              <img src={hero} alt="hero" className='h-[760px] lg:absolute right-0 max-lg:h-[500px] max-md:h-96 max-sm:h-72 max-lg:mx-auto lg:w-[470px] xl:w-[558px] ' />
+              <img src="/assets/images/webp/hero.webp" alt="hero" className='h-[760px] lg:absolute right-0 max-lg:h-[500px] max-md:h-96 max-sm:h-72 max-lg:mx-auto lg:w-[470px] xl:w-[558px] ' />
           </div>
         </div>
       </div>

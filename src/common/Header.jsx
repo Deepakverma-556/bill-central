@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import {HEADER_LINK} from '../utils/Helper'
 import CustomButton from './CustomButton';
-import logo from '../assets/images/webp/logo.webp'
 const Header = () => {
   const [open, setOpen] = useState()
 
@@ -26,7 +25,7 @@ const Header = () => {
       <div className='max-w-[1172px] px-4 mx-auto py-5 max-md:py-4 max-sm:py-3'>
         <div className='flex items-center justify-between'>
           <a href="#logo">
-            <img src={logo} alt="logo" className='h-10 max-md:h-9 max-sm:h-8' />
+            <img src="/assets/images/webp/logo.webp" alt="logo" className='h-10 max-md:h-9 max-sm:h-8' />
           </a>
           <ul className='flex items-center gap-6 max-lg:hidden'>
             {HEADER_LINK.map((obj, i) => (
