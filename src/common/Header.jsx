@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import {HEADER_LINK} from '../utils/Helper'
+import { HEADER_LINK } from '../utils/Helper'
 import CustomButton from './CustomButton';
 const Header = () => {
   const [open, setOpen] = useState()
@@ -19,7 +19,6 @@ const Header = () => {
     };
   }, [open]);
 
-
   return (
     <section className='bg-transparent'>
       <div className='max-w-[1172px] px-4 mx-auto py-5 max-md:py-4 max-sm:py-3'>
@@ -29,7 +28,7 @@ const Header = () => {
           </a>
           <ul className='flex items-center gap-6 max-lg:hidden'>
             {HEADER_LINK.map((obj, i) => (
-              <li key={i}><a href={obj.Link} className='text-white text-base font-helvetica relative flex after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-1 after:h-[0.2px] after:bg-white pb-0.5'>{obj.Title}</a></li>
+              <li key={i}><a href={obj.link} className='text-white text-base font-helvetica relative flex after:absolute after:w-0 after:transition-all after:duration-300 after:hover:w-full after:bottom-1 after:h-[0.2px] after:bg-white pb-0.5'>{obj.title}</a></li>
             ))}
           </ul>
           <div className='max-lg:hidden'><CustomButton text='Get Started' bg='bg-white' /></div>
@@ -43,11 +42,10 @@ const Header = () => {
             }`}>
             <ul className='flex items-center flex-col gap-6'>
               {HEADER_LINK.map((obj, i) => (
-                <li key={i}><a href={obj.Link} className='text-white text-base'>{obj.Title}</a></li>
+                <li key={i}><a href={obj.link} className='text-white text-base'>{obj.title}</a></li>
               ))}
               <CustomButton text='Get Started' bg='bg-white' />
             </ul>
-
           </div>
         </div>
       </div>

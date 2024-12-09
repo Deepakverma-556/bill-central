@@ -1,26 +1,26 @@
 export const HEADER_LINK = [
     {
-        Title:'About',
-        Link:'#about',
+        title: 'About',
+        link: '#about',
     },
     {
-        Title:'How It Works',
-        Link:'#works'
+        title: 'How It Works',
+        link: '#works'
     },
     {
-        Title:'Services',
-        Link:'#services'
+        title: 'Services',
+        link: '#services'
     },
     {
-        Title:'Testimonials',
-        Link:'#testimonials'
+        title: 'Testimonials',
+        link: '#testimonials'
     },
     {
-        Title:'Why Us',
-        Link:'#us'
+        title: 'Why Us',
+        link: '#us'
     },
     {
-        Title:'FAQ',
-        Link:'#faq'
+        title: 'FAQ',
+        link: '#faq'
     },
 ]
