@@ -15,7 +15,11 @@ module.exports = {
       },
       colors: {
         skyBlue: '#00A8E8',
-        darkBlue:'#003459'
+        darkBlue: '#003459',
+        deepBlue: '#00171F',
+        prussianBlue: '#003459',
+        gray: '#4B4B4B',
+        lightBlue: '#EAF9FFF0'
       }
     },
   },

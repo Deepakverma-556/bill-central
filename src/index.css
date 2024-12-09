@@ -9,3 +9,7 @@
 .font-helvetica {
   font-family: "Helvetica", sans-serif;
 }
+.vertical-text {
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}

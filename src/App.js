@@ -1,12 +1,16 @@
 import './App.css';
-import Faq from './components/Faq';
+import CompanyLogo from './components/CompanyLogo';
 import HeroSection from './components/HeroSection';
+import SimpleSteps from './components/SimpleSteps';
+import SwitchingEnergy from './components/SwitchingEnergy';
 
 function App() {
   return (
     <>
-      <HeroSection/>
-      <Faq/>
+      <HeroSection />
+      <CompanyLogo />
+      <SwitchingEnergy />
+      <SimpleSteps/>
     </>
   );
 }

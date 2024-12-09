@@ -12,11 +12,10 @@ const HeroSection = () => {
           <div className='w-1/2 px-3 max-lg:w-full'>
             <div className='max-lg:text-center'>
               <h1 className='text-[64px] max-lg:text-5xl max-md:text-4xl max-sm:text-3xl max-lg:leading-tight leading-[70px] text-white font-helvetica'>Easily Compare <span className='font-bold'>Energy, Gas, And Internet</span> Plans</h1>
-              <div className='pt-4 max-md:pt-3 max-w-[800px] max-lg:mx-auto'><Description text='Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.' /></div>
+              <div className='pt-4 max-md:pt-3 max-w-[800px] max-lg:mx-auto'><Description color='text-white' text='Find and switch to the best energy, gas, and internet plans with ease. Our platform simplifies your search, letting you compare providers and make informed decisions, all in one place.' /></div>
               <div className='pt-[42px] max-md:pt-7 max-sm:pt-5 max-w-[476px] max-lg:mx-auto'>
                 <CustomInput placeholder='Start typing your address' />
               </div>
-              <h3 className='font-normal text-[38px] max-md:text-3xl max-sm:text-2xl leading-[41px] text-darkBlue lg:max-w-[548px] lg:absolute lg:-bottom-[270px] xlg:-bottom-[336px] max-lg:py-5 max-sm:pt-3 max-lg:text-white'>More Than <span className='text-skyBlue'>80,000</span>+ Companies Trust Bill Central</h3>
             </div>
           </div>
           <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-5 max-sm:pt-2'>
