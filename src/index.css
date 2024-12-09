@@ -13,3 +13,10 @@
   writing-mode: tb-rl;
   transform: rotate(-180deg);
 }
+
+@media (max-width:770px){
+.slick-list .slick-track{
+  display: flex;
+  gap: 6px;
+}
+}
