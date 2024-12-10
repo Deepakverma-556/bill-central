@@ -3,6 +3,7 @@ import CompanyLogo from './components/CompanyLogo';
 import HeroSection from './components/HeroSection';
 import SimpleSteps from './components/SimpleSteps';
 import SwitchingEnergy from './components/SwitchingEnergy';
+import Utilities from './components/Utilities';
 function App() {
   return (
     <>
@@ -10,7 +11,7 @@ function App() {
       <CompanyLogo />
       <SwitchingEnergy />
       <SimpleSteps />
-
+      <Utilities/>
     </>
   );
 }

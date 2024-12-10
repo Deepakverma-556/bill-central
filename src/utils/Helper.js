@@ -1,3 +1,6 @@
+import { Bulb, Bundle, Gas, Internet } from "./icons"
+
+
 export const HEADER_LINK = [
     {
         title: 'About',
@@ -73,13 +76,7 @@ export const COMPANY_LOGO = [
         myLink: '#agl',
         myClass:'h-[62px] max-md:h-14 max-sm:h-10'
     },
-    
- 
-    
-    
-    
-    
-    
+     
 ]
 export const SIMPLE_STEPS_LIST = [
     {
@@ -105,5 +102,27 @@ export const SIMPLE_STEPS_LIST = [
         alt: 'best-plan',
         title: "Choose the Best Plan",
         content: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
+    },
+]
+export const UTILITY_COMPARISONS = [
+    {   
+        icon:<Bulb/>,
+        title: 'Electricity Plan Comparisons',
+        description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    },
+    {
+        icon: <Gas/>,
+        title: 'Gas Plan Comparisons',
+        description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    },
+    {
+        icon:<Internet/>,
+        title: 'Internet Plan Comparisons',
+        description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
+    },
+    {
+        icon:<Bundle/>,
+        title: 'Bundle Packages',
+        description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
     },
 ]

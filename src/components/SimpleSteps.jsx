@@ -44,7 +44,7 @@ const SimpleSteps = () => {
     ],
   };
   return (
-    <div className='pb-40 max-lg:pb-24 max-md:pb-12 max-w-[1440px] mx-auto max-md:px-4'>
+    <div className='pb-40 max-lg:pb-24 max-md:pb-16 max-w-[1440px] mx-auto max-md:px-4'>
       <div className='max-w-[610px] mx-auto text-center pb-[58px] max-md:pb-10 max-sm:pb-8'>
         <div className=' pb-4 max-lg:pb-3 max-sm:pb-2'>
           <SubHeading text='Switch' spanText='Simple Steps To' />

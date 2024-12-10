@@ -19,7 +19,10 @@ module.exports = {
         deepBlue: '#00171F',
         prussianBlue: '#003459',
         gray: '#4B4B4B',
-        lightBlue: '#EAF9FFF0'
+        lightBlue: '#EAF9FFF0',
+        lightGray: '#00000014',
+        light: '#0000001A',
+        crispBlue:'#007EA7'
       }
     },
   },
