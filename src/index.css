@@ -13,11 +13,6 @@
   writing-mode: tb-rl;
   transform: rotate(-180deg);
 }
-.mylogo .slick-list .slick-track{
-  display: flex;
-  align-items: center; 
-  justify-content: space-between;
-}
 
 
 @media (max-width:770px){
