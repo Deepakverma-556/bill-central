@@ -1,12 +1,12 @@
 import React from 'react'
 import SubHeading from '../common/SubHeading'
 import Description from '../common/Description'
-import { ENERGY_PLANS_LIST } from '../utils/Helper'
+import { ENERGY_PLANS_LIST } from '../utils/helper'
 import PrimaryButton from '../common/PrimaryButton'
 
 const SwitchingEnergy = () => {
   return (
-    <div className='py-40 max-lg:py-24 max-md:py-12'>
+    <div className='py-40 max-lg:py-24 max-md:py-16'>
       <div className='max-w-[1172px] mx-auto px-4'>
         <div className='flex flex-wrap -mx-3'>
           <div className='w-1/2 px-3 max-lg:w-full'>
@@ -15,7 +15,7 @@ const SwitchingEnergy = () => {
           <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center'>
             <div className='max-w-[409px] pb-4 max-lg:pb-3 max-lg:text-center'><SubHeading text='Switching Energy' secondSpanText='Made Simple' /></div>
             <div className='max-lg:max-w-[900px] max-lg:text-center'>
-              <Description color='text-deepBlue' text="Say goodbye to confusing energy plans! We simplify the process 
+              <Description customColor='text-deepBlue' text="Say goodbye to confusing energy plans! We simplify the process 
             by providing clear and competitive electricity and gas recommendations. Whether you're moving or just
             seeking a better deal, our platform connects you with the best energy providers quickly and easily,
             helping you save on energy bills." />
@@ -26,7 +26,7 @@ const SwitchingEnergy = () => {
                 <li key={i} className='font-helvetica text-base max-md:text-sm max-sm:text-xs leading-6 text-deepBlue'>{obj}</li>
               ))}
             </ul>
-            <PrimaryButton text='Compare With Us' bg='bg-skyBlue' color='text-white' />
+            <PrimaryButton text='Compare With Us' customBg='bg-skyBlue' customColor='text-white' />
           </div>
         </div>
       </div>
