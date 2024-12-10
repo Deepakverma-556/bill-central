@@ -1,8 +1,12 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 const Testimonials = () => {
+  const [move, setMove]=useState(true)
   return (
-    <div>Testimonials</div>
+    <>
+      <button onClick={() => setMove(!move)}>click</button>
+      <p>{move ? "hello" : "world"}</p>
+    </>
   )
 }
 
