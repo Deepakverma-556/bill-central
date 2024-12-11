@@ -1,61 +1,47 @@
-import React, { useState, useRef } from 'react'
+import React from 'react'
 import SubHeading from '../common/SubHeading'
-import { UTILITY_COMPARISONS } from '../utils/helper';
-import { AccDownArrow } from '../utils/icons';
-
-
-const AccordionItem = ({ handleToggle, active, obj }) => {
-  const contentEl = useRef();
-  const { title, description, icon } = obj;
-
-  return (
-    <div className=" overflow-hidden border border-lightGray rounded mt-6 max-md:mt-5 max-sm:mt-4 p-[14px] max-md:p-3 max-sm:p-2 transition-all duration-300 group hover:shadow-[0px_0px_13.9px_0px] hover:shadow-light max-lg:max-w-[700px] mx-auto">
-        <div role="button" aria-expanded={active === title} aria-controls={`content-${title}`}
-          className={` flex items-center cursor-pointer justify-between ${active === title ? 'active' : ''}`}
-          onClick={() => handleToggle(title)}>
-          <div className='flex items-center gap-6 max-sm:gap-2'>
-            <div className='h-16 w-16 max-md:h-14 max-md:w-14 rounded-full bg-lightBlue flex items-center justify-center transition-all duration-300 group-hover:bg-prussianBlue'>{icon}</div>
-            <p className="font-helvetica text-2xl max-md:text-xl max-sm:text-lg leading-[26px] text-deepBlue">{title}</p>
-          </div>
-          <div className={`transition-transform duration-500 ${active === title ? 'rotate-180' : 'rotate-0'}`}>
-            <AccDownArrow />
-          </div>
-        </div>
-      <div title={`content-${title}`} ref={contentEl} className={`rc-collapse ${active === title ? 'show' : ''}`} style={{
-        height: active === title ? `${contentEl.current.scrollHeight}px` : '0px',
-        transition: 'height 0.3s ease-out',
-      }}
-      >
-        <p className="pl-[88px] max-md:pl-20 max-sm:pl-16 pt-3 max-sm:pt-1">{description}</p>
-      </div>
-    </div>
-  );
-};
+import Description from '../common/Description'
+import ChooseUsCardTitle from '../common/ChooseUsCardTitle'
+import { RightArrow } from '../utils/icons'
+import { CHOOSE_US, UTILITY_COMPARISONS } from '../utils/helper'
 
 const Utilities = () => {
-  const [active, setActive] = useState(null);
-
-  const handleToggle = (title) => {
-    setActive((prev) => (prev === title ? null : title));
-  };
   return (
-    <div className='pb-[162px] max-lg:pb-24 max-md:pb-12'>
-      <div className='max-w-[1172px] mx-auto px-4'>
-        <div className='flex flex-wrap -mx-3'>
-          <div className='w-1/2 max-lg:w-full px-3'>
-            <div className='max-w-[456px] max-lg:text-center max-lg:mx-auto pb-[22px] max-md:pb-2 max-sm:pb-0'>
-              <SubHeading text='Comparisons' spanText='Comprehensive Utility' />
+    <>
+      <div className='max-w-[1172px] px-4 mx-auto'>
+        <div className='text-center'>
+          <SubHeading customColor='text-deepBlue' text='Utilities' spanText='Why Choose Us For' />
+        </div>
+        <div className='max-w-[620px] mx-auto text-center pt-4 max-lg:pt-3 max-sm:pt-1'>
+          <Description customColor='text-deepBlue' myOpacity='opacity-90' text="This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!" />
+        </div>
+        <div className='flex max-lg:flex-wrap -mx-3 pt-[58px] max-md:pt-10 max-sm:pt-6'>
+          <div className='w-[424] px-3 max-lg:mx-auto'>
+            <div className='bg-prussianBlue p-10 max-lg:p-8 max-md:p-6 pt-[57px] rounded'>
+              <img src="/assets/images/webp/thumb-up.webp" alt="thumb-up" className='h-60 max-lg:h-48 max-md:h-32' />
+              <div className='pt-[51px] max-lg:pt-8 max-md:pt-6 max-md:pb-2 pb-3'><ChooseUsCardTitle text='Tailored Recommendations' customColor="text-white" /></div>
+              <div className='max-w-[344px]'>
+                <Description myOpacity='opacity-90' customColor="text-white" text="Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available." />
+              </div>
+              <button className='px-6 py-[22px] rounded-full bg-white mt-[22px] max-md:mt-4'><RightArrow /></button>
             </div>
-            {UTILITY_COMPARISONS.map((obj, index) => (
-              <AccordionItem key={index} active={active} handleToggle={handleToggle} obj={obj} />
-            ))}
           </div>
-          <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-8'>
-            <img src="/assets/images/webp/utility-discussion.webp" alt="utility-discussion" className='h-[535px] object-cover mx-auto max-lg:h-96 max-md:h-80 max-sm:h-64' />
+          <div className="w-7/12 max-lg:w-full max-lg:pt-8">
+            <div className='flex flex-wrap'>
+              {CHOOSE_US.map((obj, i) => (
+                <div key={i} className='px-3 w-6/12 max-lg:w-1/3 max-md:w-1/2 max-[500px]:w-full md:max-w-[334px] mx-auto pb-6  overflow-y-auto'>
+                  <div className='shadow-box p-6 max-lg:p-4 hover:bg-prussian-blue group duration-300 ease-linear transition-all md:h-[286px] max-md:h-[245px] border border-opacity-10 border-deepBlue rounded shadow-[0px_0px_13.9px_0px] shadow-light'>
+                    <div>{obj.icon}</div>
+                    <div className='pt-[18px] pb-3 max-lg:pt-3 max-lg:pb-2'>{obj.title}</div>
+                    <div className='max-[1100px]:h-28 overflow-y-auto pb-5'>{obj.description}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

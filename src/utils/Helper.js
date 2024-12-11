@@ -1,4 +1,6 @@
-import { Bulb, Bundle, Gas, Internet } from "./icons"
+import ChooseUsCardTitle from "../common/ChooseUsCardTitle"
+import Description from "../common/Description"
+import { Bulb, Bundle, Comparison, Gas, Internet, NoService, Support, TimeMoney } from "./icons"
 
 
 export const HEADER_LINK = [
@@ -126,3 +128,55 @@ export const UTILITY_COMPARISONS = [
         description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
     },
 ]
+export const CHOOSE_US = [
+    {   
+        icon:<Comparison/>,
+        title: <ChooseUsCardTitle customColor='text-babyBlack' text='Simplified Comparison Process' />,
+        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision." /> 
+    },
+    {
+        icon: <TimeMoney/>,
+        title: <ChooseUsCardTitle customColor='text-babyBlack' text='Save Time and Money' />,
+        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available." /> 
+    },
+    {
+        icon:<NoService/>,
+        title: <ChooseUsCardTitle customColor='text-babyBlack' text='No Service Interruptions' />,
+        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime." /> 
+    },
+    {
+        icon: <Support/>,
+        title: <ChooseUsCardTitle customColor='text-babyBlack' text='Comprehensive Support' />,
+        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way." />
+    },
+]
+export const OUR_TESTIMONIALS = [
+    {
+        profileImg: '/assets/images/webp/cameron.webp',
+        alt: 'cameron',
+        name: "Cameron",
+        id: <Description text='@cameron' customColor='text-black' myOpacity='opacity-50'/>,
+        rating: '/assets/images/webp/rating.webp',
+        ratingAlt: 'rating',
+        content: <Description customColor="text-deepBlue" myOpacity='opacity-90' text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
+    },
+    {
+        profileImg: '/assets/images/webp/ronald.webp',
+        alt: 'ronald',
+        name: "Ronald",
+        id: <Description text='@ronald' customColor='text-black' myOpacity='opacity-50'/>,
+        rating: '/assets/images/webp/rating.webp',
+        ratingAlt: 'rating',
+        content: <Description customColor="text-deepBlue" myOpacity='opacity-90' text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
+    },
+    {
+        profileImg: '/assets/images/webp/jay-shah.webp',
+        alt: 'jay-shah',
+        name: "Jay Shah",
+        id: <Description text='@jayshah' customColor='text-black' myOpacity='opacity-50'/>,
+        rating: '/assets/images/webp/rating.webp',
+        ratingAlt: 'rating',
+        content: <Description customColor="text-deepBlue" myOpacity='opacity-90' text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
+    },
+]
+

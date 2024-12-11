@@ -1,18 +1,25 @@
 import './App.css';
-import CompanyLogo from './components/CompanyLogo';
-import HeroSection from './components/HeroSection';
-import SimpleSteps from './components/SimpleSteps';
-import SwitchingEnergy from './components/SwitchingEnergy';
-import Utilities from './components/Utilities';
+import About from './view/About';
+import Faq from './view/Faq';
+import Main from './view/Main';
+import Service from './view/Service';
+import Testimonials from './view/Testimonials';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import WhyUs from './view/WhyUs';
 function App() {
   return (
-    <>
-      <HeroSection />
-      <CompanyLogo />
-      <SwitchingEnergy />
-      <SimpleSteps />
-      <Utilities/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route>
+          <Route path="/" element={<Main/>} />
+          <Route path="/about" element={<About/>} />
+          <Route path="/why-us" element={<WhyUs/>} />
+          <Route path="/faq" element={<Faq/>} />
+          <Route path="/service" element={<Service/>} />
+          <Route path="/testimonials" element={<Testimonials/>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

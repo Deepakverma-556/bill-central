@@ -11,7 +11,7 @@ module.exports = {
       screens: {
         xlg:'1050px',
         lg: '1025px',
-        md:'770px',
+        md:'790px',
       },
       colors: {
         skyBlue: '#00A8E8',
@@ -22,7 +22,8 @@ module.exports = {
         lightBlue: '#EAF9FFF0',
         lightGray: '#00000014',
         light: '#0000001A',
-        crispBlue:'#007EA7'
+        crispBlue: '#007EA7',
+        babyBlack:"#010101"
       }
     },
   },
