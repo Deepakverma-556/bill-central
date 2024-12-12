@@ -26,7 +26,7 @@ const SwitchingEnergy = () => {
                 <li key={i} className='font-helvetica text-base max-md:text-sm max-sm:text-xs leading-6 text-deepBlue'>{obj}</li>
               ))}
             </ul>
-            <CustomButton text='Compare With Us' customBg='bg-skyBlue' customColor='text-white my-arrow' />
+            <CustomButton text='Compare With Us' myClass='bg-skyBlue text-white my-arrow' />
           </div>
         </div>
       </div>
