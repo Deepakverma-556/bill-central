@@ -49,10 +49,10 @@ const Testimonials = () => {
     <div className='testimonials pb-[162px] pt-[138px] max-lg:pb-24 max-lg:pt-[72px] max-md:pb-16 max-md:pt-10'>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <div className='text-center'>
-          <SubHeading customColor='text-deepBlue' text='Testimonials' spanText='Our' />
+          <SubHeading text='Testimonials' spanText='Our' />
         </div>
         <div className='max-w-[490px] mx-auto text-center pt-4 max-lg:pt-3 max-sm:pt-2'>
-          <Description customColor='text-deepBlue' myOpacity='opacity-90' text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />
+          <Description myClass='text-deepBlue opacity-90' text="Lorem ipsum dolor sit amet consectetur. Semper vitae nullam eget consectetur mi. Vulputate sapien a a bibendum" />
         </div>
         <div className='pt-[58px] max-md:pt-10 max-sm:pt-8'>
           <div className='relative'>

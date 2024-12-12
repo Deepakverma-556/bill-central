@@ -45,7 +45,7 @@ const SimpleSteps = () => {
         <div className=' pb-4 max-lg:pb-3 max-sm:pb-2'>
           <SubHeading text='Switch' spanText='Simple Steps To' />
         </div>
-        <Description myOpacity='text-opacity-90' customColor='text-gray' text='Lorem ipsum dolor sit amet consectetur. 
+        <Description myClass='text-opacity-90 text-gray' text='Lorem ipsum dolor sit amet consectetur. 
         Semper vitae nullam eget consectetur mi. 
         Vulputate sapien a a bibendum' />
       </div>

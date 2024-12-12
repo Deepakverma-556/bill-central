@@ -15,7 +15,7 @@ const SwitchingEnergy = () => {
           <div className='w-1/2 px-3 max-lg:w-full max-lg:pt-8 max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center'>
             <div className='max-w-[409px] pb-4 max-lg:pb-3 max-lg:text-center'><SubHeading text='Switching Energy' secondSpanText='Made Simple' /></div>
             <div className='max-lg:max-w-[900px] max-lg:text-center'>
-              <Description customColor='text-deepBlue' text="Say goodbye to confusing energy plans! We simplify the process 
+              <Description myClass='text-deepBlue' text="Say goodbye to confusing energy plans! We simplify the process 
             by providing clear and competitive electricity and gas recommendations. Whether you're moving or just
             seeking a better deal, our platform connects you with the best energy providers quickly and easily,
             helping you save on energy bills." />

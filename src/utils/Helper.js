@@ -135,22 +135,22 @@ export const CHOOSE_US = [
     {   
         icon: <Comparison />,
         title: 'Simplified Comparison Process',
-        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision." /> 
+        description: <Description myClass='opacity-90 text-deepBlue' text="Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision." /> 
     },
     {
         icon: <TimeMoney/>,
         title: 'Save Time and Money' ,
-        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available." /> 
+        description: <Description myClass='opacity-90 text-deepBlue' text="With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available." /> 
     },
     {
         icon:<NoService/>,
         title: 'No Service Interruptions' ,
-        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime." /> 
+        description: <Description myClass='opacity-90 text-deepBlue' text="We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime." /> 
     },
     {
         icon: <Support/>,
         title: 'Comprehensive Support' ,
-        description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way." />
+        description: <Description myClass='opacity-90 text-deepBlue' text="Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way." />
     },
 ]
 
@@ -159,28 +159,28 @@ export const OUR_TESTIMONIALS = [
         profileImg: '/assets/images/webp/cameron.webp',
         alt: 'cameron',
         name: "Cameron",
-        id: <Description text='@cameron' customColor='text-black' myOpacity='opacity-50'/>,
+        id: <Description text='@cameron'myClass='text-black opacity-50'/>,
         rating: '/assets/images/webp/rating.webp',
         ratingAlt: 'rating',
-        content: <Description customColor="text-deepBlue" myOpacity='opacity-90' text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
+        content: <Description myClass="text-deepBlue opacity-90" text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
     },
     {
         profileImg: '/assets/images/webp/ronald.webp',
         alt: 'ronald',
         name: "Ronald",
-        id: <Description text='@ronald' customColor='text-black' myOpacity='opacity-50'/>,
+        id: <Description text='@ronald' myClass='text-black opacity-50'/>,
         rating: '/assets/images/webp/rating.webp',
         ratingAlt: 'rating',
-        content: <Description customColor="text-deepBlue" myOpacity='opacity-90' text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
+        content: <Description myClass="text-deepBlue opacity-90" text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
     },
     {
         profileImg: '/assets/images/webp/jay-shah.webp',
         alt: 'jay-shah',
         name: "Jay Shah",
-        id: <Description text='@jayshah' customColor='text-black' myOpacity='opacity-50'/>,
+        id: <Description text='@jayshah'myClass='text-black opacity-50'/>,
         rating: '/assets/images/webp/rating.webp',
         ratingAlt: 'rating',
-        content: <Description customColor="text-deepBlue" myOpacity='opacity-90' text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
+        content: <Description myClass="text-deepBlue opacity-90" text="Lorem adipis cing elit ipsum dolor sit amet, consectetur adipis cing elit. Vivamus lacinia odio  adipiscing elit vitae vestibulum vestibulum." />
     },
 ]
 

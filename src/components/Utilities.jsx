@@ -9,10 +9,10 @@ const Utilities = () => {
     <>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <div className='text-center'>
-          <SubHeading customColor='text-deepBlue' text='Utilities' spanText='Why Choose Us For' />
+          <SubHeading text='Utilities' spanText='Why Choose Us For' />
         </div>
         <div className='max-w-[620px] mx-auto text-center pt-4 max-lg:pt-3 max-sm:pt-1'>
-          <Description customColor='text-deepBlue' myOpacity='opacity-90' text="This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!" />
+          <Description myClass='text-deepBlue opacity-90' text="This emphasizes both the action and the benefits, drawing in potential customers with a clear value proposition. Let me know if you'd like any adjustments!" />
         </div>
         <div className='flex max-lg:flex-wrap -mx-3 pt-[58px] max-md:pt-10 max-sm:pt-6'>
           <div className='w-[424] px-3 max-lg:mx-auto'>
@@ -20,7 +20,7 @@ const Utilities = () => {
               <img src="/assets/images/webp/thumb-up.webp" alt="thumb-up" className='h-60 max-lg:h-48 max-md:h-32' />
               <h4 className='pt-[51px] max-lg:pt-8 max-md:pt-6 max-md:pb-2 pb-3 font-helvetica text-2xl leading-[26px] max-lg:text-xl max-lg:leading-6 text-white'>Tailored Recommendations</h4>
               <div className='max-w-[344px]'>
-                <Description myOpacity='opacity-90' customColor="text-white" text="Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available." />
+                <Description myClass='opacity-90 text-white' text="Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available." />
               </div>
               <button className='px-[25px] py-[21px] rounded-full bg-white mt-[22px] max-md:mt-4 hover:bg-lightBlue transition-all duration-300'><RightArrow /></button>
             </div>

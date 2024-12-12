@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Description = ({text, customColor, myOpacity}) => {
+const Description = ({text, myClass}) => {
   return (
-      <p className={`text-base max-md:text-sm leading-6 ${customColor} ${myOpacity} font-helvetica`}>{text }</p>
+      <p className={`text-base max-md:text-sm leading-6 ${myClass} font-helvetica`}>{text }</p>
   )
 }
 
