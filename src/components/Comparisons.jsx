@@ -14,7 +14,7 @@ const AccordionItem = ({ handleToggle, active, obj }) => {
         className={` flex items-center cursor-pointer justify-between ${active === title ? 'active' : ''}`}
         onClick={() => handleToggle(title)}>
         <div className='flex items-center gap-6 max-sm:gap-2'>
-          <div className={`h-16 w-16 max-md:h-14 max-md:w-14 rounded-full  flex items-center justify-center transition-all duration-300 ${active === title ? 'bg-prussianBlue my-icon' : 'bg-lightBlue'} `}>{icon}</div>
+          <div className={`h-16 w-16 max-md:h-14 max-md:w-14 rounded-full  flex items-center justify-center transition-all duration-300 ${active === title ? 'bg-prussianBlue my-icon' : 'bg-lightBlue '} `}>{icon}</div>
           <p className="font-helvetica text-2xl max-md:text-xl max-sm:text-lg leading-[26px] text-deepBlue">{title}</p>
         </div>
         <div className={`transition-transform duration-500 ${active === title ? 'rotate-180' : 'rotate-0'}`}>

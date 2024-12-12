@@ -22,7 +22,7 @@ const Utilities = () => {
               <div className='max-w-[344px]'>
                 <Description myOpacity='opacity-90' customColor="text-white" text="Our platform analyzes your unique energy needs and preferences to suggest the best utility providers, ensuring you get the most personalized options available." />
               </div>
-              <button className='px-[25px] py-[21px] rounded-full bg-white mt-[22px] max-md:mt-4'><RightArrow /></button>
+              <button className='px-[25px] py-[21px] rounded-full bg-white mt-[22px] max-md:mt-4 hover:bg-lightBlue transition-all duration-300'><RightArrow /></button>
             </div>
           </div>
           <div className="w-[61.6%] max-lg:w-full max-lg:pt-8">

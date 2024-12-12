@@ -6,7 +6,7 @@ import CustomButton from '../common/CustomButton'
 
 const SwitchingEnergy = () => {
   return (
-    <div className='py-40 max-lg:py-24 max-md:py-16'>
+    <div className='py-[162px] max-lg:py-24 max-md:py-16'>
       <div className='max-w-[1172px] mx-auto px-4'>
         <div className='flex flex-wrap -mx-3'>
           <div className='w-1/2 px-3 max-lg:w-full'>

@@ -46,7 +46,7 @@ const Testimonials = () => {
     ],
   };
   return (
-    <div className='testimonials py-40 max-lg:pb-24 max-lg:pt-[72px] max-md:pb-16 max-md:pt-10'>
+    <div className='testimonials pb-[162px] pt-[138px] max-lg:pb-24 max-lg:pt-[72px] max-md:pb-16 max-md:pt-10'>
       <div className='max-w-[1172px] px-4 mx-auto'>
         <div className='text-center'>
           <SubHeading customColor='text-deepBlue' text='Testimonials' spanText='Our' />
