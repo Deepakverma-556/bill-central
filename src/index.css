@@ -37,6 +37,11 @@
   fill: white;
 }
 
+.my-group:hover .icon svg path {
+  fill: white;
+  transition: all 300ms linear;
+}
+
 .my-arrow svg path{
   stroke: white;
 }

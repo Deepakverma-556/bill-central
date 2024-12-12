@@ -29,10 +29,10 @@ const Utilities = () => {
             <div className='flex flex-wrap '>
               {CHOOSE_US.map((obj, i) => (
                 <div key={i} className='w-6/12 px-3 max-lg:w-1/3 max-md:w-1/2 max-[500px]:w-full md:max-w-[358px] pb-6 max-lg:mx-auto  overflow-y-auto'>
-                  <div className='shadow-box p-6 max-lg:p-4 hover:bg-prussian-blue group duration-300 ease-linear transition-all min-h-[286px] max-md:min-h-56  border border-opacity-10 border-deepBlue rounded shadow-[0px_0px_13.9px_0px] shadow-light'>
-                    <div>{obj.icon}</div>
-                    <h4 className='pt-[18px] pb-3 max-lg:pt-3 max-lg:pb-2 font-helvetica text-2xl leading-[26px] max-lg:text-xl max-lg:leading-6 text-babyBlack'>{obj.title}</h4>
-                    <div className=' overflow-y-auto '>{obj.description}</div>
+                  <div className='shadow-box p-6 max-lg:p-4 hover:bg-prussianBlue group my-group duration-300  transition-all min-h-[286px] max-md:min-h-56  border border-opacity-10 border-deepBlue rounded shadow-[0px_0px_13.9px_0px] shadow-light'>
+                    <div className={`icon `}>{obj.icon}</div>
+                    <h4 className='pt-[18px] pb-3 max-lg:pt-3 max-lg:pb-2 font-helvetica text-2xl leading-[26px] max-lg:text-xl max-lg:leading-6 text-babyBlack group-hover:text-white duration-300 transition-all'>{obj.title}</h4>
+                    {obj.description}
                   </div>
                 </div>
               ))}

@@ -16,6 +16,12 @@ const SimpleSteps = () => {
     arrows: false,
     responsive: [
       {
+        breakpoint: 1025,
+        settings: {
+          dots: true,
+        }
+      },
+      {
         breakpoint: 770,
         settings: {
           slidesToShow: 3,
@@ -55,11 +61,11 @@ const SimpleSteps = () => {
             <div key={i} className='relative group overflow-hidden cursor-pointer'>
               <img src={obj.image} alt={obj.alt} className='h-[661px] object-cover max-lg:h-[500px] max-md:h-96 max-sm:h-[340px] w-full' />
               <div className='absolute flex items-end justify-center bg-lightBlue h-full w-full bottom-0 group-hover:bottom-full transition-all duration-700'>
-                <p className='vertical-text pt-8 max-md:pt-3 text-[32px] max-lg:text-2xl max-md:text-xl max-sm:text-lg font-helvetica leading-[35px] text-deepBlue'><span>{i+1}</span>. {obj.title}</p>
+                <p className='vertical-text pt-8 max-md:pt-3 text-[32px] max-lg:text-2xl max-md:text-xl max-sm:text-lg font-helvetica leading-[35px] text-deepBlue'><span>{i + 1}</span>. {obj.title}</p>
               </div>
               <div className='absolute -bottom-full transition-all duration-700 bg-prussianBlue group-hover:bottom-0'>
                 <div className='p-8 max-lg:p-6 max-md:p-4'>
-                  <h2 className='font-helvetica pb-[14px] max-md:pb-2 text-[32px] max-lg:text-2xl max-md:text-xl max-sm:text-lg font-helvetica leading-[35px] max-lg:leading-tight max-md:leading-6 max-sm:leading-5 text-white'><span>{ i+1}.</span> {obj.title}</h2>
+                  <h2 className='font-helvetica pb-[14px] max-md:pb-2 text-[32px] max-lg:text-2xl max-md:text-xl max-sm:text-lg font-helvetica leading-[35px] max-lg:leading-tight max-md:leading-6 max-sm:leading-5 text-white'><span>{i + 1}.</span> {obj.title}</h2>
                   <p className='font-helvetica text-base max-md:text-sm max-sm:text-xs leading-6 text-white'>{obj.content}</p>
                 </div>
               </div>

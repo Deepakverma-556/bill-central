@@ -135,22 +135,22 @@ export const CHOOSE_US = [
     {   
         icon: <Comparison />,
         title: 'Simplified Comparison Process',
-        description: <Description myClass='opacity-90 text-deepBlue' text="Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision." /> 
+        description: <Description myClass='opacity-90 text-deepBlue transition-all duration-300 group-hover:text-white' text="Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision." /> 
     },
     {
         icon: <TimeMoney/>,
         title: 'Save Time and Money' ,
-        description: <Description myClass='opacity-90 text-deepBlue' text="With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available." /> 
+        description: <Description myClass='opacity-90 text-deepBlue transition-all duration-300 group-hover:text-white' text="With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available." /> 
     },
     {
         icon:<NoService/>,
         title: 'No Service Interruptions' ,
-        description: <Description myClass='opacity-90 text-deepBlue' text="We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime." /> 
+        description: <Description myClass='opacity-90 text-deepBlue transition-all duration-300 group-hover:text-white' text="We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime." /> 
     },
     {
         icon: <Support/>,
         title: 'Comprehensive Support' ,
-        description: <Description myClass='opacity-90 text-deepBlue' text="Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way." />
+        description: <Description myClass='opacity-90 text-deepBlue transition-all duration-300 group-hover:text-white' text="Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way." />
     },
 ]
 
