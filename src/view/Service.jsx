@@ -3,9 +3,7 @@ import MyService from '../components/services/MyService'
 
 const Service = () => {
   return (
-      <>
-          <MyService/>
-      </>
+    <MyService />
   )
 }
 

@@ -23,7 +23,8 @@ module.exports = {
         lightGray: '#00000014',
         light: '#0000001A',
         crispBlue: '#007EA7',
-        babyBlack:"#010101"
+        babyBlack: "#010101",
+        deepGray:'#00000033',
       }
     },
   },

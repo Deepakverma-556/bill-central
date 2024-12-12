@@ -6,26 +6,48 @@
   font-family: "Helvetica";
   src: url("/public/assets/fonts/Helvetica.ttf") format("truetype");
 }
+
 .font-helvetica {
   font-family: "Helvetica", sans-serif;
 }
+
 .vertical-text {
   writing-mode: tb-rl;
   transform: rotate(-180deg);
 }
-.testimonials .slick-list .slick-track{
+
+.testimonials .slick-list .slick-track {
   display: flex;
   gap: 24px;
 }
 
+.testimonials .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 12px !important;
+  top: 10px;
+}
 
-@media (max-width:770px){
-.slick-list .slick-track{
-  display: flex;
-  gap: 6px;
+.slick-dots li button:before {
+  font-family: "slick";
+  font-size: 12px !important;
+  top: 10px;
 }
-.testimonials .slick-list .slick-track{
-  display: flex;
-  gap: 10px;
+
+.my-icon svg path {
+  fill: white;
 }
+
+.my-arrow svg path{
+  stroke: white;
+}
+
+@media (max-width: 770px) {
+  .slick-list .slick-track {
+    display: flex;
+    gap: 6px;
+  }
+  .testimonials .slick-list .slick-track {
+    display: flex;
+    gap: 10px;
+  }
 }

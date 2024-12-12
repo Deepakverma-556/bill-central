@@ -1,4 +1,3 @@
-import ChooseUsCardTitle from "../common/ChooseUsCardTitle"
 import Description from "../common/Description"
 import { Bulb, Bundle, Comparison, Gas, Internet, NoService, Support, TimeMoney } from "./icons"
 
@@ -6,34 +5,36 @@ import { Bulb, Bundle, Comparison, Gas, Internet, NoService, Support, TimeMoney 
 export const HEADER_LINK = [
     {
         title: 'About',
-        link: '#about',
+        link: 'about',
     },
     {
         title: 'How It Works',
-        link: '#works'
+        link: 'works'
     },
     {
         title: 'Services',
-        link: '#services'
+        link: 'service'
     },
     {
         title: 'Testimonials',
-        link: '#testimonials'
+        link: 'testimonials'
     },
     {
         title: 'Why Us',
-        link: '#us'
+        link: 'why-us'
     },
     {
         title: 'FAQ',
-        link: '#faq'
+        link: 'faq'
     },
 ]
+
 export const ENERGY_PLANS_LIST = [
     'Save money by finding cheaper deals.',
     'Get better customer service.',
     'Explore greener, more sustainable energy options.',
 ]
+
 export const COMPANY_LOGO = [
     {
         logo: '/assets/images/webp/energy-logo.webp',
@@ -52,7 +53,6 @@ export const COMPANY_LOGO = [
         alt:'dodo-logo',
         myLink: '#dodo',
         myClass:'h-8 max-md:h-7 max-sm:h-6'
-        
     },
     {
         logo: '/assets/images/webp/origin-logo.webp',
@@ -80,6 +80,7 @@ export const COMPANY_LOGO = [
     },
      
 ]
+
 export const SIMPLE_STEPS_LIST = [
     {
         image: '/assets/images/webp/location.webp',
@@ -106,9 +107,10 @@ export const SIMPLE_STEPS_LIST = [
         content: 'Complete the process in just a few clicks. We’ll handle the rest and ensure a smooth transition to your new provider.'
     },
 ]
+
 export const UTILITY_COMPARISONS = [
     {   
-        icon:<Bulb/>,
+    icon: <Bulb />,
         title: 'Electricity Plan Comparisons',
         description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
     },
@@ -128,28 +130,30 @@ export const UTILITY_COMPARISONS = [
         description: 'Whether you want renewable energy, low rates, or flexible contracts, we’ll help you find the best provider.'
     },
 ]
+
 export const CHOOSE_US = [
     {   
-        icon:<Comparison/>,
-        title: <ChooseUsCardTitle customColor='text-babyBlack' text='Simplified Comparison Process' />,
+        icon: <Comparison />,
+        title: 'Simplified Comparison Process',
         description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="Our intuitive platform lets you compare the best utility providers in one place, helping you make a quick and informed decision." /> 
     },
     {
         icon: <TimeMoney/>,
-        title: <ChooseUsCardTitle customColor='text-babyBlack' text='Save Time and Money' />,
+        title: 'Save Time and Money' ,
         description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="With up-to-date plans and pricing, you can be sure you’re getting the most competitive rates available." /> 
     },
     {
         icon:<NoService/>,
-        title: <ChooseUsCardTitle customColor='text-babyBlack' text='No Service Interruptions' />,
+        title: 'No Service Interruptions' ,
         description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="We take care of the entire switching process so you can enjoy a hassle-free experience with zero downtime." /> 
     },
     {
         icon: <Support/>,
-        title: <ChooseUsCardTitle customColor='text-babyBlack' text='Comprehensive Support' />,
+        title: 'Comprehensive Support' ,
         description: <Description myOpacity='opacity-90' customColor='text-deepBlue' text="Whether you need assistance selecting a plan or during the switch, our dedicated support team is here to help every step of the way." />
     },
 ]
+
 export const OUR_TESTIMONIALS = [
     {
         profileImg: '/assets/images/webp/cameron.webp',

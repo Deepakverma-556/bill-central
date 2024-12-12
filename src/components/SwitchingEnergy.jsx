@@ -2,7 +2,7 @@ import React from 'react'
 import SubHeading from '../common/SubHeading'
 import Description from '../common/Description'
 import { ENERGY_PLANS_LIST } from '../utils/helper'
-import PrimaryButton from '../common/PrimaryButton'
+import CustomButton from '../common/CustomButton'
 
 const SwitchingEnergy = () => {
   return (
@@ -26,7 +26,7 @@ const SwitchingEnergy = () => {
                 <li key={i} className='font-helvetica text-base max-md:text-sm max-sm:text-xs leading-6 text-deepBlue'>{obj}</li>
               ))}
             </ul>
-            <PrimaryButton text='Compare With Us' customBg='bg-skyBlue' customColor='text-white' />
+            <CustomButton text='Compare With Us' customBg='bg-skyBlue' customColor='text-white my-arrow' />
           </div>
         </div>
       </div>

@@ -3,9 +3,7 @@ import MyFaq from '../components/faq/MyFaq'
 
 const Faq = () => {
   return (
-      <>
-      <MyFaq/>
-      </>
+    <MyFaq />
   )
 }
 

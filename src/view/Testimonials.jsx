@@ -3,9 +3,7 @@ import MyTestimonials from '../components/testimonials/MyTestimonials'
 
 const Testimonials = () => {
   return (
-      <>
-          <MyTestimonials/>
-      </>
+    <MyTestimonials />
   )
 }
 
