@@ -6,6 +6,16 @@
   font-family: "Helvetica";
   src: url("/public/assets/fonts/Helvetica.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Avantt";
+  src: url("/public/assets/fonts/Avantt-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Avantt";
+  src: url("/public/assets/fonts/Avantt-SemiBold.otf") format("opentype");
+  font-weight: 600;
+}
 
 .font-helvetica {
   font-family: "Helvetica", sans-serif;

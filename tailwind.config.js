@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'blueLine':"url('/public/assets/images/webp/hero-blue-bg.webp')"
+        'blueLine': "url('/public/assets/images/webp/hero-blue-bg.webp')"
       },
       screens: {
-        xlg:'1050px',
+        xlg: '1050px',
         lg: '1025px',
-        md:'790px',
+        md: '790px',
       },
       colors: {
         skyBlue: '#00A8E8',
@@ -24,7 +24,10 @@ module.exports = {
         light: '#0000001A',
         crispBlue: '#007EA7',
         babyBlack: "#010101",
-        deepGray:'#00000033',
+        deepGray: '#00000033',
+      },
+      fontFamily: {
+        avantt: ["Avantt", "sans-serif"]
       }
     },
   },
