@@ -1,12 +1,12 @@
 import React from 'react'
-import { COMPETE_LIST, COMPETITION_LIST } from '../../utils/helper'
+import { COMPETE_LIST, } from '../../utils/helper'
 
 const AboutRoute = () => {
   return (
     <div className='min-h-screen flex items-center justify-center'>
       <div className='font-avantt bg-[#026070] py-14 px-4 rounded-xl'>
         {COMPETE_LIST.map((obj, i) => (
-          <div key={i} className={`flex ${i === 0 ? "border-none" : "border-t"}`}>
+          <div key={i} className={`flex ${i === 0 ? "border-none" : "border-t"} pr-2`}>
             <div className={`${i === 0 ? "opacity-0" : ""} w-[140px] py-[18.8px] pr-12 pl-2`}>
               <p className='text-sm font-normal text-white leading-4'>{obj.service}</p>
             </div>
