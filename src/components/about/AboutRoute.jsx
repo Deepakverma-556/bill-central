@@ -19,7 +19,7 @@ const AboutRoute = () => {
             <div className={`${i === 0 ? "rounded-t-lg" : i === 6 ? " rounded-b-lg " : ""} w-24 bg-white text-center flex justify-center items-center mr-3 py-[18.8px]`}>
               <p className={`text-xs font-semibold ${i === 6 ? "!font-normal !text-[8px] !leading-[9px] max-w-12" : ""}`}>{obj.coconut}</p>
             </div>
-            <div className={`${i === 0 ? "rounded-t-lg" : i === 6 ? " rounded-b-lg " : ""} w-24 bg-white text-center flex justify-center items-center py-[18.8px]`}>
+            <div className={`${i === 0 ? "rounded-t-lg" : i === 6 ? " rounded-b-lg " : ""} w-24 text-center flex justify-center items-center bg-[#56E3CB] py-[18.8px]`}>
               <p className={`text-xs font-semibold ${i === 6 ? "!font-normal !text-[8px] !leading-[9px] max-w-16" : ""}`}>{obj.pie}</p>
             </div>
           </div>
