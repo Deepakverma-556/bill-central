@@ -3,8 +3,8 @@ import { COMPETE_LIST, } from '../../utils/helper'
 
 const AboutRoute = () => {
   return (
-    <div className='min-h-screen flex items-center justify-center'>
-      <div className='font-avantt bg-[#026070] py-14 px-4 rounded-xl overflow-x-auto'>
+    <div className='min-h-screen flex items-center justify-center py-5'>
+      <div className='font-avantt bg-[#026070] py-14 px-4 rounded-xl overflow-x-auto mx-4'>
         {COMPETE_LIST.map((obj, i) => (
           <div key={i} className={`flex ${i === 0 ? "border-none" : "border-t"} pr-2 w-[568px]`}>
             <div className={`${i === 0 ? "opacity-0" : ""} w-[140px] py-[18.8px] pr-12 pl-2`}>
